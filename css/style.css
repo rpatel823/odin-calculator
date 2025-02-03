@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#calContainer {
+    width: 700px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 10px 100px;
+    background-color: green;
+    text-align: center;
+}
+
+.displayContainer {
+    border: 3px solid black;
+    margin-top: 15px;
+    height: 80px;
+    border-radius: 50px;
+    line-height: 70px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.buttonContainer button {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aqua;
+}
